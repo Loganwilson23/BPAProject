@@ -93,7 +93,7 @@ function sendButton() {
 }
 
 function heartButton() {
-    buttonSendText("Heart clicked!")
+    buttonSendText("❤️")
 }
 
 // Press enter to send a message
