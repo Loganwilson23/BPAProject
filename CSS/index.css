@@ -1,0 +1,14 @@
+.body-container{
+  
+max-width: auto;
+width: auto;
+height: 150vh;
+background-color: black;
+}
+.body-image{
+    
+    border-radius: 40px;
+    margin-top: -50px;
+    width: 100%;
+    height: 600px;
+}
