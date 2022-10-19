@@ -15,6 +15,41 @@ height: 70vh;
     right: -400px;
 }
 
+/* featured cars */
+.card-title , .card-text{
+    color: #fff;
+}
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgb(240, 239, 239);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #ff0000;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
 /*Footer section Formatting*/
 .footer_container{
     background-color: #100F0F;
@@ -55,7 +90,11 @@ height: 70vh;
       text-decoration: none;
       margin-bottom:.5rem ;
     }
-    
+    .footer_link--items h6{
+        color: #fff;
+        text-decoration: none;
+        margin-bottom:.5rem ;
+      }
     .footer_link--items p{
         color: #fff;
         text-decoration: none;
