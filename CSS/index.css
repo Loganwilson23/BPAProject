@@ -55,6 +55,14 @@ height: 70vh;
       text-decoration: none;
       margin-bottom:.5rem ;
     }
+    
+    .footer_link--items p{
+        color: #fff;
+        text-decoration: none;
+        margin-bottom:.5rem;
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+      }
     .footer_link--items a:hover{
         color: #f77062;
         transition: .4s ease-out;

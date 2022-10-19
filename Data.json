@@ -2,9 +2,10 @@
    
 {
     "//_comment": "Catagory is Suv , Sedans , pickups , convertibles or hatchbacks",
-    "brand": "Chevy",
-    "color": "red",
+    "brand": "",
+    "color": "",
     "name": "",
+    "Mileage": "",
     "year" :"",
     "catagory" : ""
     
