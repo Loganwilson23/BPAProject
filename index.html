@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Car Dealership</title>
         <script src="https://kit.fontawesome.com/4bc7eacd5b.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
 
         <link rel="stylesheet" href="CSS/chat.css">
@@ -16,54 +16,49 @@
     </head>
     <body>
 <!-- Nav bar-->
-<div class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
 
-                <div class="navbar-header">
-                    <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                    <a href="#" class="navbar-brand">Company-name</a>
-                </div>
-
-                <div class="navbar-collapse collapse" id="mobile_menu">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="allc.html">All Cars for sale</a></li>
-                                <li><a href="#">SUVS  for sale</a></li>
-                                <li><a href="#">Sedans for sale</a></li>
-                                <li><a href="#">Pickups for sales</a></li>
-                                <li><a href="#">Convertibles for sale</a></li>
-                                <li><a href="#">Hatchbacks for sale</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <form action="" class="navbar-form">
-                                <div class="form-group">
-                                    <div class="input-group" >
-                                        <input type="search" name="search" id="" placeholder="Search Anything Here..." class="form-control" data-search>
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-                                    </div>
-                                </div>
-                            </form>
-                        </li>
-                    </ul>
-
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!--Body-->
 <div class="body-container">
-
+  <nav>
+    <div class="menu-icon">
+       <span class="fas fa-bars"></span>
+    </div>
+    <div class="logo">
+      Used Car Dealership
+    </div>
+    <div class="nav-items">
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <div class="dropdown">
+        <button class="dropbtn">Cars for sale</button>
+        <div class="dropdown-content">
+          <li><a href="allc.html">All Cars for sale</a></li>
+          <li><a href="#">SUVS  for sale</a></li>
+          <li><a href="#">Sedans for sale</a></li>
+          <li><a href="#">Pickups for sales</a></li>
+          <li><a href="#">Convertibles for sale</a></li>
+          <li><a href="#">Hatchbacks for sale</a></li>
+        </div>
+      </div>
+       <li><a href="#">Contact</a></li>
+    </div>
+    <div class="search-icon">
+       <span class="fas fa-search"></span>
+    </div>
+    <div class="cancel-icon">
+       <span class="fas fa-times"></span>
+    </div>
+    <form action="#">
+       <input type="search" class="search-data" placeholder="Search" required>
+       <button type="submit" class="fas fa-search"></button>
+    </form>
+ </nav>
+ <div class="content">
+    <header class="space">Responsive Navbar with Search Box</header>
+    <div class="space text">
+       using HTML CSS & JavaScript
+    </div>
+ </div>
     
 </div>
 
@@ -114,9 +109,9 @@
        <!--footer-->
         <footer class="footer">
             <div class="footer__addr">
-              <h1 class="footer__logo">Something</h1>
+              <h1 class="footer__logo">Used Car Dealership</h1>
                   
-              <h2>Contact</h2>
+              <h2>Contact Info</h2>
               
               <address>
                 5534 Somewhere In. The World 22193-10212<br>
@@ -145,7 +140,7 @@
               </li>
               
               <li class="nav__item nav__item--extra">
-                <h2 class="nav__title">Our Hours</h2>
+                <h2 class="nav__title"><B>Our Hours</B></h2>
                 
                 <ul class="nav__ul nav__ul--extra">
                   <li>
@@ -171,7 +166,7 @@
                   <li>
                     <p>Sunday<br> 10:00 AM - 6:00 PM</p>
                   </li>
-
+                </ul>
               </li>
     
               <li class="nav__item">
@@ -200,59 +195,13 @@
           
             </div>
           </footer>
-         <!--footer-->
-     <!-- <div class="footer_container">
-            <div class="footer_links">
-                <div class="footer_link--wrapper">
-                    <div class="footer_link--items">
-                        <h2> Contact Us</h2>
-                          <h6>Phone number</h6>
-                        <a href="tel+1234567895">(123)456-7895</a>
-                             </div>
-                    <div class="footer_link--items">
-                        <h2>Cars for sale</h2>
-                        <a href="#">All Cars for sale</a>
-                        <a href="#">SUVS  for sale</a>
-                        <a href="#">Sedans for sale</a>
-                        <a href="#">Pickups for sales</a>
-                        <a href="#">Convertibles for sale</a>
-                        <a href="#">Hatchbacks for sale</a>
-                        </div>
-                        <div class="footer_link--items">
-                            <h2>Our Hours</h2>
-                            <p>Monday<br> 9:00 AM - 5:00 PM</p>
-                            <p>Tuesday<br> 9:00 AM - 5:00 PM</p>
-                            <p>Wednesday<br> 9:00 AM - 5:00 PM</p>
-                            <p>Thursday<br> 9:00 AM - 5:00 PM</p>
-                            <p>Friday<br> 9:00 AM - 5:00 PM</p>
-                            <p>Saturday<br> 8:00 AM - 7:00 PM</p>
-                            <p>Sunday<br> 10:00 AM - 6:00 PM</p>
-
-                            </div>
-                        
-                    <div class="footer_link--items">
-                        <h2>Other</h2>
-                        <a href="https://docs.google.com/document/d/1LTCWMv0efSiPmCUb-5Y_JuV8pmiwVXQtqZZqXQ0-2SI/edit?usp=sharing">Citations</a>
-                        
-                        </div>
-                       
-                </div>
-            </div>
-            <section class="social_media">
-                <div class="social_media--wrap">
-                    <div class="footer_logo">
-                        <a href="index.html" id="footer_logo"></a>
-                    </div>
-                    <p> &copy  2022. All rights reserved</p>
-                    
-                </div>
-            </section>
-        </div>--> 
+         
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="JS/responses.js"></script>
 <script src="JS/chat.js"></script>
 <script src="JS/search.js"></script>
+<script src="JS/navbar.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
