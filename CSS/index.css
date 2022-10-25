@@ -48,7 +48,7 @@ height: 70vh;
 
 .dropdown:hover .dropbtn {background-color: #a51212;}
 nav{
-  background: #171c24;
+  background: #080808;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
