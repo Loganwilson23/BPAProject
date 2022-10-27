@@ -4,152 +4,302 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>All cars</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <title>Car Dealership</title>
+        <script src="https://kit.fontawesome.com/4bc7eacd5b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css	"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js		"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css			"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js		"/>
+
+
         <link rel="stylesheet" href="CSS/chat.css">
         <link rel="stylesheet" href="CSS/home.css">
+        <link rel="stylesheet" href="CSS/index.css">
         <link rel="stylesheet" href="CSS/allc.css">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 <!-- Nav bar-->
-<div class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-
-                <div class="navbar-header">
-                    <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                    <a href="#" class="navbar-brand">Company-name</a>
+<nav>
+  <div class="menu-icon">
+     <span class="fas fa-bars"></span>
+  </div>
+  <div class="logo">
+    Used Car Dealership
+  </div>
+  <div class="nav-items">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <div class="dropdown">
+      <button class="dropbtn">Cars for sale</button>
+      <div class="dropdown-contents">
+        <li><a href="allc.html">All Cars for sale</a></li>
+        <li><a href="#">SUVS  for sale</a></li>
+        <li><a href="#">Sedans for sale</a></li>
+        <li><a href="#">Pickups for sales</a></li>
+        <li><a href="#">Convertibles for sale</a></li>
+        <li><a href="#">Hatchbacks for sale</a></li>
+      </div>
+    </div>
+     <li><a href="#">Contact</a></li>
+  </div>
+  <div class="search-icon">
+     <span class="fas fa-search"></span>
+  </div>
+  <div class="cancel-icon">
+     <span class="fas fa-times"></span>
+  </div>
+  <form action="#">
+     <input type="search" class="search-data" placeholder="Search" required>
+     <button type="submit" class="fas fa-search"></button>
+  </form>
+</nav>
+<!--Body-->
+<div class="body-container">
+    <div class="items-container">
+        <div class="item">
+            <div class="diamond-container">
+                <div class="diamond">
+                    <div class="diamond-wrapper">
+                        <div class="diamond-content">$31520</div>
+                    </div>
                 </div>
+            </div>
+            <div class="item-wrapper">
+                <div class="content-wrapper">
+                    <div class="img-container">
+                        <div class="bg-square"></div>
+                        <img class="item-img" src="Media/cars/22F150Ford.jpg" />
+                    </div>
+    
+                    <div class="content-text">
+                        <div class="item-name">2022 Ford F150</div>
+                        <div class="item-subtext-container">
+                            <span class="item-subtext subtext-mfr">Mackie</span> |
+                            <span class="item-subtext subtext-model"> #SA1512</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more-btn">View More <span class="view-symbol">+</span></div>
+                <div class="item-details-container">
+                    <div class="details-content-wrapper">
+                        <div class="detail">
+                            <span class="detail-title">Vehicle | </span>
+                            <span class="detail-text detail-name">2022 Ford F150</span>
+                        </div>
+    
+                        <div class="detail">
+                            <span class="detail-title">Brand | </span>
+                            <span class="detail-text mfr-name">Ford</span>
+                        </div>
+    
+                        <div class="detail">
+                            <span class="detail-title">Model # | </span>
+                            <span class="detail-text detail-model">SA1512</span>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-title">Color | </span>
+                            <span class="detail-text detail-model">Silver</span>
+                        </div>
+    
+                        <div class="detail">
+                            <span class="detail-title">Year | </span>
+                            <span class="detail-text detail-msrp">2022</span>
+                        </div>
+    
+                        <div class="detail">
+                            <span class="detail-title">Price | </span>
+                            <span class="detail-text detail-price">$31,520</span>
+                        </div>
 
-                <div class="navbar-collapse collapse" id="mobile_menu">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Cars for sale <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="allc.html">All Cars for sale</a></li>
-                                <li><a href="#">SUVS  for sale</a></li>
-                                <li><a href="#">Sedans for sale</a></li>
-                                <li><a href="#">Pickups for sales</a></li>
-                                <li><a href="#">Convertibles for sale</a></li>
-                                <li><a href="#">Hatchbacks for sale</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <form action="" class="navbar-form">
-                                <div class="form-group">
-                                    <div class="input-group" >
-                                        <input type="search" name="search" id="" placeholder="Search Anything Here..." class="form-control" data-search>
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                        <div class="detail">
+                            <span class="detail-title">Catagory | </span>
+                            <span class="detail-text detail-model">Suv</span>
+                        </div>
+    
+                        <div class="detail detail-desc">
+                            <div class="detail-title">Description</div>
+                            <div class="detail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora praesentium quos, accusantium, rem architecto veritatis possimus. Quis facilis, quo reiciendis laudantium.</div>
+                            
+                               
+                                    <div class="manual-icon-container">
+                             
                                     </div>
-                                </div>
-                            </form>
-                        </li>
-                    </ul>
-
-                    
+                                  
+                            </a>
+                        </div>
+    
+                        <div class="delivery-container">
+                            <input type="radio" name="delivery-radio" class="delivery-radio" value="pickup" checked/>
+                            <div class="delivery-radio-text">Pickup</div>
+                            <input type="radio" name="delivery-radio" class="delivery-radio" value="delivery" title="delivery" />
+                            <div class="delivery-radio-text">Delivery</div>
+                        </div>
+    
+                        <div class="detail-gallery">
+                            <a class="thumb-link" href="#"><img class="detail-thumb" src="Media/cars/22F150inside.jpg" alt="Item Preview" /></a>
+                            <a class="thumb-link" id="more-thumbs" href="#">
+                                
+                                <img class="detail-thumb" src="Media/cars/22F150inside2.jpg" alt="Item Preview" />
+                            </a>
+                        </div>
+    
+                        <div class="detail-price-container">
+                            <div class="price-subtext">Est. Price</div>
+                            <div class="price-text">$31,520</div>
+                        </div>
+    
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--Body-->
-<div class="body-container">
     
 </div>
+
 
 
 
         <!--Message box -->
         <div class="chat-bar-collapsible">
-            <button id="chat-button" type="button" class="collapsible">Chat with us!
-                <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
-            </button>
-            <div class="content">
-                <div class="full-chat-block">
-                    <!-- Message Container -->
-                    <div class="outer-container">
-                        <div class="chat-container">
-                            <!-- Messages -->
-                            <div id="chatbox">
-                                <h5 id="chat-timestamp"></h5>
-                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
-                            </div>
-    
-                            <!-- User input box -->
-                            <div class="chat-bar-input-block">
-                                <div id="userInput">
-                                    <input id="textInput" class="input-box" type="text" name="msg"
-                                        placeholder="Tap 'Enter' to send a message">
-                                    <p></p>
-                                </div>
-    
-                                <div class="chat-bar-icons">
-                                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                        onclick="heartButton()"></i>
-                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                                        onclick="sendButton()"></i>
-                                </div>
-                            </div>
-    
-                            <div id="chat-bar-bottom">
-                                <p></p>
-                            </div>
-    
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-    
+          <button id="chat-button" type="button" class="collapsible">Chat with us!
+              <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+          </button>
+          <div class="content">
+              <div class="full-chat-block">
+                  <!-- Message Container -->
+                  <div class="outer-container">
+                      <div class="chat-container">
+                          <!-- Messages -->
+                          <div id="chatbox">
+                              <h5 id="chat-timestamp"></h5>
+                              <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                          </div>
+  
+                          <!-- User input box -->
+                          <div class="chat-bar-input-block">
+                              <div id="userInput">
+                                  <input id="textInput" class="input-box" type="text" name="msg"
+                                      placeholder="Tap 'Enter' to send a message">
+                                  <p></p>
+                              </div>
+  
+                              <div class="chat-bar-icons">
+                                  <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                      onclick="heartButton()"></i>
+                                  <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                      onclick="sendButton()"></i>
+                              </div>
+                          </div>
+  
+                          <div id="chat-bar-bottom">
+                              <p></p>
+                          </div>
+  
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
         </div>
-
-         <!--footer-->
-         <div class="footer_container">
-            <div class="footer_links">
-                <div class="footer_link--wrapper">
-                    <div class="footer_link--items">
-                        <h2> Contact Us</h2>
-                        <a href="#">Contact</a>
-                             </div>
-                    <div class="footer_link--items">
-                        <h2>Cars for sale</h2>
-                        <a href="#">All Cars for sale</a>
-                        <a href="#">SUVS  for sale</a>
-                        <a href="#">Sedans for sale</a>
-                        <a href="#">Pickups for sales</a>
-                        <a href="#">Convertibles for sale</a>
-                        <a href="#">Hatchbacks for sale</a>
-                        </div>
-                        
-                    <div class="footer_link--items">
-                        <h2>Links</h2>
-                        <a href="https://docs.google.com/document/d/1LTCWMv0efSiPmCUb-5Y_JuV8pmiwVXQtqZZqXQ0-2SI/edit?usp=sharing">Citations</a>
-                        
-                        </div>
-                       
-                </div>
-            </div>
-            <section class="social_media">
-                <div class="social_media--wrap">
-                    <div class="footer_logo">
-                        <a href="index.html" id="footer_logo"></a>
-                    </div>
-                    <p> &copy  2022. All rights reserved</p>
+       <!--footer-->
+        <footer class="footer">
+            <div class="footer__addr">
+              <h1 class="footer__logo">Used Car Dealership</h1>
+                  
+              <h2>Contact Info</h2>
+              
+              <address>
+                5534 Somewhere In. The World 22193-10212<br>
                     
-                </div>
-            </section>
-        </div>
+                <p href="tel+1234567895" class="footer__btn">(123) 456-7895</p>
+              </address>
+            </div>
+            
+            <ul class="footer__nav">
+              <li class="nav__item">
+                <h2 class="nav__title">Media</h2>
+          
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Online</a>
+                  </li>
+          
+                  <li>
+                    <a href="#">Print</a>
+                  </li>
+                      
+                  <li>
+                    <a href="#">Alternative Ads</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title"><B>Our Hours</B></h2>
+                
+                <ul class="nav__ul nav__ul--extra">
+                  <li>
+                    <p>Monday<br>9:00 AM - 5:00 PM</p>
+                  </li>
+          
+                  <li>
+                    <p>Tuesday<br>9:00 AM - 5:00 PM</p>
+                  </li>
+                      
+                  <li>
+                    <p>Wednesday<br> 9:00 AM - 5:00 PM</p>
+                  </li>
+                  <li>
+                    <p>Thursday<br> 9:00 AM - 5:00 PM</p>
+                  </li>
+                  <li>
+                    <p>Friday<br> 9:00 AM - 5:00 PM</p>
+                  </li>
+                  <li>
+                    <p>Saturday<br> 8:00 AM - 7:00 PM</p>
+                  </li>
+                  <li>
+                    <p>Sunday<br> 10:00 AM - 6:00 PM</p>
+                  </li>
+                </ul>
+              </li>
+    
+              <li class="nav__item">
+               
+                <h2 class="nav__title">Legal</h2>
+                
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  
+                  <li>
+                    <a href="https://docs.google.com/document/d/1LTCWMv0efSiPmCUb-5Y_JuV8pmiwVXQtqZZqXQ0-2SI/edit?usp=sharing">Citations</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <div class="legal">
+              <p>&copy; 2022 Used Car Dealership. All rights reserved.</p>
+              
+          
+            </div>
+          </footer>
+         
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="JS/responses.js"></script>
 <script src="JS/chat.js"></script>
 <script src="JS/search.js"></script>
+<script src="JS/navbar.js"></script>
 <script src="JS/allc.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
