@@ -1,6 +1,8 @@
 .chat-bar-collapsible {
-    position: fixed;
+    position:fixed;
     bottom: 0;
+    display: inline-block;
+    float: left;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -20,7 +22,7 @@
 
 .content {
     max-height: 0;
-    overflow: hidden;
+    overflow:visible;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
@@ -28,7 +30,7 @@
 .full-chat-block {
     width: 350px;
     background: white;
-    background-clip: border-box;
+    background-clip:border-box ;
     text-align: center;
     overflow: auto;
     scrollbar-width: none;
