@@ -1,63 +1,20 @@
 .body-container{
 max-width: 1500px;
 height: 200vh;
-background-color: #D4DED9;
+background-color: #79A9D1;
 
 }
 .white{
   color: #fff;
 }
-/* body img / buttons on top fo it */
-.body-image{
-border-bottom: 10px solid black;
-width: 100%;
-height: 45vh;
+.imgs{
+  height: 80vh;
 }
-.body-service{
-  width: 100%;
-  height: 90vh;
-  }
-.con-img{
-  top: 5px;
-  width: 1420px;
-height: 120vh;
+.black{
+  color: #020300;
+  font-size: 50px;
 }
-.con-service{
-  width: 1420px;
-height: 20vh;
-}
-.btn-vi{
-  width: 150px;
-  height: 50px;
-  color: #080808;
-  background-color: transparent;
-  position: absolute;
-  left: 50px;
-  top: 350px;
-  border-radius: 50rem;
-}
-.btn-vp{
-  width: 150px;
-  height: 50px;
-  color: #080808;
-  border-radius: 50rem;
-  background-color:transparent;
-  position: absolute;
-  left: 50px;
-  top: 250px;
-}
-.btn-vi:hover{
-  background-color: #1e232b;
-  color: #e5e5e5;
-}
-.btn-vp:hover{
-  background-color: #1e232b;
-  color: #e5e5e5;
-}
-.input-group{
-    position: relative;
-    right: -400px;
-}
+
 /*nav bar*/
 .dropbtn {
   background-color:transparent;
@@ -93,9 +50,9 @@ height: 20vh;
 
 .dropdown:hover .dropdown-contents {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #a51212;}
+.dropdown:hover .dropbtn {background-color: #D2E4C4;}
 nav{
-  background: #5A4A4A;
+  background: #7D8CA3;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -125,7 +82,7 @@ nav .nav-items li a{
   text-decoration: none;
 }
 nav .nav-items li a:hover{
-  color: #ff3d00;
+  color: #D2E4C4;
 }
 nav form{
   display: flex;
@@ -150,13 +107,13 @@ nav form button{
   padding: 0 15px;
   color: #fff;
   font-size: 17px;
-  background: #ff3d00;
+  background: #7D8CA6;
   border: none;
   border-radius: 2px;
   cursor: pointer;
 }
 nav form button:hover{
-  background: #e63600;
+  background: #D2E4C4;
 }
 nav .menu-icon,
 nav .cancel-icon,
@@ -282,7 +239,7 @@ nav .search-icon{
   margin: 10px 0;
 }
 nav .logo.space{
-  color: red;
+  
   padding: 0 5px 0 0;
 }
 @media (max-width: 980px){
@@ -336,7 +293,7 @@ nav .logo.space{
         flex-flow:row-reverse;
         padding: 30px 30px 20px 30px;
         color: #ffffff;
-        background-color: #4B4848;
+        background-color: #020300;
         border-top: 1px solid #e5e5e5;      }
       
       .footer > * {
@@ -431,7 +388,7 @@ nav .logo.space{
         column-gap: 1.25em;
       }
       .nav__ul li  :hover{
-      color: #a51212;
+      color: #D2E4C4;
      }
       .legal {
         display: flex;
