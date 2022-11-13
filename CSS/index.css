@@ -15,7 +15,7 @@ background-color: #79A9D1;
   height: 90vh;
 }
 .carousel-item{
-  padding: 5px 5px;
+  padding: 25px 25px;
 }
 .carousel-item p{
   color: #D2E4C4;
@@ -23,7 +23,13 @@ background-color: #79A9D1;
  border-radius: 20px;
   font-weight: 900;
   font-size: 25px;
-  background-color: #79A9D1;
+  background-color: black;
+}
+.carousel-control-prev{
+  width: 20px;
+}
+.carousel-control-next{
+  width: 20px;
 }
 .carousel-item a{
    text-decoration: none;
@@ -36,13 +42,13 @@ background-color: #79A9D1;
  width: 220px;
  position: relative;
  left: 300px;
- top: -550px;
+ top: -700px;
  align-self: center;
  justify-content: center;
  justify-self: center;
   font-weight: 900;
   font-size: 25px;
-  background-color: #79A9D1;
+  background-color: black;
 }
 .black{
   color: #020300;

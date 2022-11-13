@@ -42,7 +42,7 @@ $('.delivery-radio').on('change', function() {
 	var priceInitA = thisDiamondContent.text();
 	var priceSplit = priceInitA.split('$');
 	var priceInit = parseInt(priceSplit[1]);
-	var deliveryFee = 50;
+	var deliveryFee = 500;
 	var priceEst = parseInt(priceInit + deliveryFee);
 	var priceOutput = '$'+priceEst;
 	console.log(priceEst);

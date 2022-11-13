@@ -41,7 +41,7 @@
 .outer-container {
     min-height: 500px;
     bottom: 0%;
-    position: relative;
+    position:relative;
 }
 
 .chat-container {

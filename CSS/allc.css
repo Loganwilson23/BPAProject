@@ -2,7 +2,7 @@
 .body-container{
     margin-top: -20px;
     max-width: 100%;
-    height: 250vh;
+    height: 310vh;
     background-color: #79A9D1;
     }
 
@@ -129,7 +129,7 @@
 }
 
 .view-more-btn {
-	position: absolute;
+	position:absolute;
 	bottom: 0;
 	display: block;
 	width: 100%;
