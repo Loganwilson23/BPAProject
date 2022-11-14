@@ -1,9 +1,11 @@
 .chat-bar-collapsible {
-    position:fixed;
+   position: fixed;
     bottom: 0;
     display: inline-block;
-    float: left;
+    float: none;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 105;
+    
 }
 
 .collapsible {

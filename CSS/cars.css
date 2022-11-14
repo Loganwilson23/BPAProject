@@ -4,3 +4,9 @@
     height: 70vh;
     background-color: #79A9D1;
     }
+
+    @media (max-width:1500px){
+        .body-container{
+            height: 150vh;
+        }
+    }
