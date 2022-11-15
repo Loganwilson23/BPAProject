@@ -100,11 +100,8 @@ nav{
   height: 70px;
   padding: 0 100px;
 }
-nav .logo{
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: -1px;
+.logo{
+  
 }
 nav .nav-items{
   display: flex;
