@@ -42,7 +42,7 @@ background-color: #79A9D1;
  width: 220px;
  position: relative;
  left: 300px;
- top: -700px;
+ top: -550px;
  align-self: center;
  justify-content: center;
  justify-self: center;
@@ -100,8 +100,11 @@ nav{
   height: 70px;
   padding: 0 100px;
 }
-.logo{
-  
+nav .logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
 }
 nav .nav-items{
   display: flex;
