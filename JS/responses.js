@@ -16,14 +16,8 @@ if (input == "hello") {
     return "Hello there!";
 } else if (input == "goodbye") {
     return "Talk to you later!";
-} else if(input == "Good"){
+} else if(input == "good"){
     return "That is good , How may I help you today ?" ;
-}
-else if(input == "good"){
-    return "That is good , How may I help you today ?" ;
-}
-else if(input == "Bad"){
-    return "awe I'm sorry to hear that , How may I help you today ?" ;
 }
 else if(input == "bad"){
     return "awe I'm sorry to hear that  , How may I help you today ?" ;
@@ -34,18 +28,18 @@ else if(input == "bad"){
 // finding pages
 if (input == "where can i find about us page") {
   return "You can find the About Us page in the top left of the page saying About US" ;
-} else if (input.toLowercase == "goodbye") {
+} else if (input.toLowercase == "blue") {
     return "Talk to you later!";
-} else if(input.toLowercase == "Good"){
+} else if(input.toLowercase == "red"){
     return "That is good , How may I help you today ?" ;
 }
-else if(input.toLowercase == "good"){
+else if(input.toLowercase == "green"){
     return "That is good , How may I help you today ?" ;
 }
-else if(input.toLowercase == "Bad"){
+else if(input.toLowercase == "purple"){
     return "awe I'm sorry to hear that , How may I help you today ?" ;
 }
-else if(input.toLowercase == "bad"){
+else if(input.toLowercase == "black"){
     return "awe I'm sorry to hear that  , How may I help you today ?" ;
 }
 else {
