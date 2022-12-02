@@ -1,5 +1,5 @@
 function getBotResponse(input) {
-  // buying a car repsonses
+  // buying a car reponses
   if (input == "How do i buy a car?") {
     return "You would go to the home page or go to our sales page";
 } else if (input == "how do i buy a car?") {
