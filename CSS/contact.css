@@ -4,7 +4,9 @@
   box-sizing: border-box;
   
 }
-
+.body-container{
+  height: 120vh;
+}
 h1 {
   font-family: 'Playfair Display',
       serif;
