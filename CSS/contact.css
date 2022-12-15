@@ -1,15 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
+
 .body-container{
   height: 120vh;
 }
-h1 {
-  font-family: 'Playfair Display',
-      serif;
+.container h1 {
   font-size: 59px;
   color: #000000;
   font-weight: 600;
@@ -17,19 +10,10 @@ h1 {
   text-align: center;
 }
 
-p {
+.container p {
   color: #000000;
   text-align: center;
 }
-
-p,
-input,
-textarea,
-label {
-  font-family: 'Poppins',
-      sans-serif;
-}
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
