@@ -1,7 +1,7 @@
 
 .body-container{
   margin-top: -25px;
-    height: 110vh;
+    height: 120vh;
     background-color: #79A9D1;
 }
 
@@ -99,19 +99,110 @@
     left: -400px;
   }
   
-  @media (max-width: 650px) {
+  @media (max-width: 1200px) {
+
+    .body-container{
+      height: 230vh;
+    }
     .loan-calculator {
       width: 90%;
-      max-width: 500px;
+      max-width: 900px;
+      height: 240vh;
+      background-color: #79A9D1;
     }
-  
     .loan-calculator form {
       flex-direction: column;
       gap: 20px;
     }
-  
-    .loan-calculator .result {
+    .loan-calculator .right {
+      width: 90%;
+      position: relative;
+      left: -790px;
+      bottom: -600px;
+     
+    }
+  }
+
+  @media (max-width: 910px) {
+
+    .body-container{
+      height: 230vh;
+    }
+    .loan-calculator {
+      width: 90%;
+      max-width: 900px;
+      height: 240vh;
+      background-color: #79A9D1;
+    }
+    .loan-calculator form {
       flex-direction: column;
-      text-align: center;
+      gap: 20px;
+    }
+    .loan-calculator .right {
+      width: 90%;
+      position: relative;
+      left: -790px;
+      bottom: -600px;
+     
+    }
+  
+    
+  .loan-calculator .result .left {
+   position: relative;
+   left: -400px;
+   bottom: -400px;
+  }
+}
+@media (max-width: 992px) {
+
+  .loan-calculator .right {
+    width: 90%;
+    position: relative;
+    left: -800px;
+    bottom: -600px;
+   
+  }
+
+  .loan-calculator .result .left {
+    position: relative;
+    left: -400px;
+    bottom: -400px;
+   }
+}
+
+
+  @media (max-width: 880px) {
+
+    .loan-calculator .right {
+      width: 90%;
+      position: relative;
+      left: -700px;
+      bottom: -600px;
+     
+    }
+  }
+
+
+  
+  @media (max-width: 650px) {
+    .body-container{
+      height: 230vh;
+    }
+    .loan-calculator {
+      width: 90%;
+      max-width: 900px;
+      height: 240vh;
+      background-color: #79A9D1;
+    }
+    .loan-calculator form {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .loan-calculator .right {
+      width: 90%;
+      position: relative;
+      left: -650px;
+      bottom: -600px;
+     
     }
   }
