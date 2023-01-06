@@ -7,10 +7,24 @@
     }
 	@media (max-width:1500px){
         .body-container{
-            height: 670vh;
+            height: 680vh;
         }
     }
-
+	@media (max-width:1499px){
+        .body-container{
+            height: 710vh;
+        }
+    }
+	@media (max-width:1150px){
+        .body-container{
+            height: 1020vh;
+        }
+    }
+	@media (max-width:762px){
+        .body-container{
+            height: 1970vh;
+        }
+    }
 /**/
 .items-container {
 	width: 95vw;

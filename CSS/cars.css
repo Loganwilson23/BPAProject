@@ -7,6 +7,22 @@
 
     @media (max-width:1500px){
         .body-container{
-            height: 150vh;
+            height: 155vh;
+        }
+    }
+
+    @media (max-width:1499px){
+        .body-container{
+            height: 160vh;
+        }
+    }
+	@media (max-width:1150px){
+        .body-container{
+            height: 240vh;
+        }
+    }
+	@media (max-width:762px){
+        .body-container{
+            height: 396vh;
         }
     }
