@@ -14,12 +14,12 @@ function getBotResponse(input) {
     }
 
 //  questions
-    else if (input == "How do i buy a car?" || input == "how do i buy a car?" || input == "How do I buy a car?" || input =="how do I buy a car?"
-    ||input == "How do i buy a car" || input == "how do i buy a car" || input == "How do I buy a car" || input =="how do I buy a car") {
-    return "You would go to the home page or go to our sales page";
+   else if (input == "How do i buy a car?" || input == "how do i buy a car?" || input == "How do I buy a car?" || input =="how do I buy a car?"
+        ||input == "How do i buy a car" || input == "how do i buy a car" || input == "How do I buy a car" || input =="how do I buy a car") {
+        return "You would go to the home page or go to our sales page";
     } else if (input == "where can i buy a car at" || input== "Where can i buy a car at" || input == "Where can I buy a car at"
-    ||input == "where can i buy a car at?" || input== "Where can i buy a car at?" || input == "Where can I buy a car at?") {
-    return "You would go to the home page or go to our sales page";
+        ||input == "where can i buy a car at?" || input== "Where can i buy a car at?" || input == "Where can I buy a car at?") {
+        return "You would go to the home page or go to our sales page";
     }
     else if (input == "where can i find about us page" || input =="Where can i find about us page" || input =="Where can I find about us page"
         ||input == "where can i find about us page?" || input =="Where can i find about us page?" || input =="Where can I find about us page?") {
@@ -43,22 +43,19 @@ function getBotResponse(input) {
     }
     else if (input == "What kind of cars do you guys have?" || input == "what kind of cars do you guys have?" || 
         input == "What kind of cars do you guys have" || input == "what kind of cars do you guys have") {
-        return "We currently have Ford,Tesla,Mercedes,BMW, Mazda,Toyota,Honda,Range Rover,Lincoln,Audi,Subaru,Ram,  Lexus,Volvo.";
+        return "We currently have Ford,Tesla,Mercedes,BMW, Mazda,Toyota,Honda,Range Rover,Lincoln,Audi,Subaru,Ram,Lexus,Volvo,";
     } 
-    else if (input == "how do i use the finace calculator" || input == "How do i use the finace calculator" || input == "How do I use the finace calculator"||
-    input == "how do I use the finace calculator" || input == "how do i use the finace calculator?" || input == "How do i use the finace calculator?" || 
-    input == "How do I use the finace calculator?"|| input == "how do I use the finace calculator?") {
-        return "For the Amount (type in your loan amount), for interest rate(type in your interest rate of the loan), for the Monthly amount(type in how many months you would like to finace the loan)";
+     else if (input == "how do i use the finance calculator" || input == "How do i use the finance calculator" || input == "How do I use the finance calculator"||
+        input == "how do I use the finace calculator" || input == "how do i use the finace calculator?" || input == "How do i use the finace calculator?" || 
+        input == "How do I use the finace calculator?"|| input == "how do I use the finace calculator?") {
+        return "for the Amount (type in your loan amount), for interest rate(type in your interest rate of the loan), for the Monthly amount(type in how many months you would like to finace the loan)";
     }
-    else if (input == "How do I contact you?" || input == "How do I contact you" ||input == "How do i contact you?" ||input == "how do I contact you?" 
-    ||input == "how do i contact you" ||input == "how do i contact you?"){
-        return "You can contact us by going to the contact page and send us an email. We also accept calls."
-    }
+    
 
 
 
     else {
-        return "Try asking something else!" + " (Like car colors: How  do I buy a car)";
+        return "Try asking something else!" + " (Like car colors: How  do I buy a car?)";
     }
 
 }
