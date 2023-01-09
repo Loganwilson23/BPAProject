@@ -45,7 +45,7 @@ function getBotResponse(input) {
         input == "What kind of cars do you guys have" || input == "what kind of cars do you guys have") {
         return "We currently have Ford,Tesla,Mercedes,BMW, Mazda,Toyota,Honda,Range Rover,Lincoln,Audi,Subaru,Ram,Lexus,Volvo,";
     } 
-     else if (input == "how do i use the finace calculator" || input == "How do i use the finace calculator" || input == "How do I use the finace calculator"||
+     else if (input == "how do i use the finance calculator" || input == "How do i use the finance calculator" || input == "How do I use the finance calculator"||
         input == "how do I use the finace calculator" || input == "how do i use the finace calculator?" || input == "How do i use the finace calculator?" || 
         input == "How do I use the finace calculator?"|| input == "how do I use the finace calculator?") {
         return "for the Amount (type in your loan amount), for interest rate(type in your interest rate of the loan), for the Monthly amount(type in how many months you would like to finace the loan)";
