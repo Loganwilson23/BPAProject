@@ -2,7 +2,7 @@
 .body-container{
   height: 120vh;
 }
-.container h1 {
+.container h3 {
   font-size: 59px;
   color: #000000;
   font-weight: 600;
@@ -18,6 +18,7 @@
   max-width: 1320px;
   margin: 0 auto;
   padding: 5%;
+  background-color: #fff;
 }
 
 form {
@@ -28,12 +29,12 @@ form {
 }
 
 input,
-textarea,
-label {
+textarea {
   display: block;
   margin: 0 auto;
   width: 100%;
   color: #000000;
+  background-color: #828282;
 }
 
 input,
@@ -43,25 +44,9 @@ textarea {
   border-bottom: 2px solid #000000;
 }
 
-input[type=submit] {
-  background-color: #000000;
-  padding: 15px 0;
-  color: white;
-  font-size: 18px;
-  border-bottom: none;
-  margin-top: 30px;
-  cursor: pointer;
-  transition: all .3s ease;
-}
-
-input[type=submit]:hover {
-  background: #FFF;
-  color: #1b1c1e;
-}
-
 input,
 textarea {
-  color: white;
+  color: #000000;
   font-size: 18px;
   padding: 10px;
 }
