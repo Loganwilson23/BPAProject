@@ -44,7 +44,7 @@ background-color: #79A9D1;
 
 .dropdown:hover .dropbtn {background-color: #D2E4C4;}
 nav{
-  background: #020300;
+  background: #171c24;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -74,7 +74,7 @@ nav .nav-items li a{
   text-decoration: none;
 }
 nav .nav-items li a:hover{
-  color: #D2E4C4;
+  color: #ff3d00;
 }
 nav form{
   display: flex;
@@ -99,13 +99,13 @@ nav form button{
   padding: 0 15px;
   color: #fff;
   font-size: 17px;
-  background: #7D8CA6;
+  background: #ff3d00;
   border: none;
   border-radius: 2px;
   cursor: pointer;
 }
 nav form button:hover{
-  background: #D2E4C4;
+  background: #e63600;
 }
 nav .menu-icon,
 nav .cancel-icon,
@@ -213,7 +213,7 @@ nav .search-icon{
   }
 }
 nav .logo.space{
-  
+  color: red;
   padding: 0 5px 0 0;
 }
 @media (max-width: 980px){
