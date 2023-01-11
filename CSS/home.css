@@ -13,6 +13,7 @@ html {
         height: 70vh;
         background-color: #fff;
         margin-top: 50px;
+        
       
       }
       .container-img img{
@@ -211,6 +212,7 @@ html {
         height: 140vh;
         background-color: #fff;
         margin-top: 50px;
+        padding-right: 15px;
     }
     .container-img img{
      width: 500px;
@@ -240,6 +242,7 @@ html {
     .body-container{
         height: 210vh;
         padding-right: 20px;
+        padding-right: 15px;
     } 
     .container-img{
         position: absolute;
