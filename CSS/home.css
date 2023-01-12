@@ -46,7 +46,7 @@ html {
 
 @media (max-width:1400px){
     .body-container{
-        height: 200vh;
+        height: 300vh;
     } 
     .container-img{
         position: absolute;
@@ -86,7 +86,7 @@ html {
 
 @media (max-width:1200px){
     .body-container{
-        height: 200vh;
+        height: 400vh;
     } 
     .container-img{
         position: absolute;
@@ -127,7 +127,7 @@ html {
 
 @media (max-width:1000px){
     .body-container{
-        height: 200vh;
+        height: 500vh;
     } 
     .container-img{
         position: absolute;

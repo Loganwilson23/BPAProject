@@ -163,7 +163,7 @@
 	padding-top: 10px;
 	user-select: none !important;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 3;
 	transition: all 0.3s ease-out;
 }
 
@@ -173,9 +173,10 @@
 	width: 100%;
 	height: 0;
 	background: rgb(160, 157, 157);
-	z-index: 99;
+	z-index: 2;
 	color: #030303;
 	transition: all 0.3s ease-out;
+
 }
 
 .details-content-wrapper {
