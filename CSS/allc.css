@@ -2,7 +2,7 @@
 .body-container{
     margin-top: -20px;
     max-width: 100%;
-    height: 310vh;
+    height: 100vh;
     background-color: #79A9D1;
     }
 	@media (max-width:1500px){
@@ -25,28 +25,59 @@
             height: 1970vh;
         }
     }
+
 /**/
-.items-container {
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    gap: .25rem;
+    width: 700px;
+    padding-left: 200px;
+	
+}
+
+.user-cards {
 	width: 95vw;
 	overflow-x: hidden;
 	margin: 0 auto;
 	margin-top: 20px;
-    
+    flex-direction: column;
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  
 }
-
+/**.card{
+	width: 200px;
+	height: 550px;
+	margin-bottom: 50px;
+}**/
+.card{
+width: 200px;
+height: 350px;
+font-weight: bold;
+text-transform: uppercase;
+border: #000 solid 2px;
+padding-left: 5px;
+margin-bottom: 50px;
+}
 .item {
 	display: inline-block;
 	position: relative;
-	margin-top: 25px;
-	margin-bottom: 10px;
-	margin-left: 40px;
-	margin-right: 20px;
 	width: 300px;
 	height: 550px;
 	border-radius: 3px;
-	background-color: #000;
+	background-color:#000;
 	box-shadow: 3px 4px 12px 1px white;
+	
+ 
 }
+.hide {
+	display: none;
+  }
 
 .item-wrapper {
 	position: relative;
@@ -63,10 +94,10 @@
 }
 
 .diamond {
-	margin-left: 10px;
-	margin-top: 10px;
-	width: 60px;
-	height: 60px;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 80px;
+	height: 80px;
 	background: #555;
 	overflow: hidden;
 	color: #fff;
@@ -117,7 +148,7 @@
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
-	margin-top: -20px;
+	margin-top: 80px;
 	left: 0;
 	right: 0;
 }
@@ -151,7 +182,7 @@
 	position:absolute;
 	bottom: 0;
 	display: block;
-	width: 100%;
+	width:100%;
 	height: 35px;
 	background: #333;
 	color: #fff;
@@ -161,7 +192,7 @@
 	word-spacing: 3px;
 	text-align: center;
 	padding-top: 10px;
-	user-select: none !important;
+	user-select:none !important ;
 	cursor: pointer;
 	z-index: 3;
 	transition: all 0.3s ease-out;
@@ -338,57 +369,6 @@
 	height: 100%;
 	transition: all 0.3s ease-out;
 }
-
-/*START CUSTOM CHECKBOX STYLES*/
-    input[type="radio"] {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      background-color: transparent;
-      border: 1px solid #000;
-      border-radius: 26px;
-      box-shadow: inset 0 0 0 0 #0000;
-      cursor: pointer;
-      height: 24px;
-      position: relative;
-      width: 41px;
-      vertical-align: top;
-      margin-bottom: 20px;
-      outline: none !important;
-      transition: border .25s .15s, box-shadow .25s .3s, padding .25s;
-    }
-    input[type="radio"]:after {
-      background-color: #0000;
-      border: 1px solid #000;
-      border-radius: 24px;
-      box-shadow: inset 0 -3px 3px rgba(255, 255, 255, 0.025), 0 1px 4px rgba(255, 255, 255, 0.15), 0 4px 4px rgba(255, 255, 255, 0.25);
-      content: '';
-      display: block;
-      height: 21px;
-      left: 0;
-      position: absolute;
-      right: 16px;
-      top: 0;
-      margin-bottom: 19px;
-      outline: none;
-      transition: border .25s .15s, left .25s .1s, right .15s .175s;
-    }
-    input[type="radio"]:checked {
-      border-color: #fff;
-      box-shadow: inset 0 0 0 13px #000;
-      padding-left: 18px;
-      outline: none;
-      transition: border .25s, box-shadow .25s, padding .25s .15s;
-    }
-    input[type="radio"]:checked:after {
-      border-color: #fff;
-      left: 16px;
-      right: 0;
-      outline: none;
-      transition: border .25s, left .15s .25s, right .25s .175s;
-    }
-
-
 /*Footer section Formatting*/
 .footer_container{
     background-color: #100F0F;
